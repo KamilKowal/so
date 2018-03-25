@@ -1,0 +1,2 @@
+g++ -c -Wall -pedantic Main.cpp -pthread -lncurses -std=c++11
+g++ -c -Wall -pedantic Mur.cpp -pthread -lncurses -std=c++11g++ -c -Wall -pedantic Ekran.cpp -pthread -lncurses -std=c++11
