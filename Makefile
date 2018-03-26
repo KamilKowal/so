@@ -1,4 +1,4 @@
-program: Main.o Mur.o Mur.o
+program: Main.o Mur.o Ekran.o
 	g++ -o program Main.o Ekran.o Mur.o -pthread -lncurses -std=c++11
 Main.o: Main.cpp Mur.h
 	g++ -c -Wall -pedantic Main.cpp -pthread -lncurses -std=c++11

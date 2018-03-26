@@ -7,9 +7,8 @@ private:
 	std::mutex kolejka;
 	Ekran *e;
 	bool random_bool();
-   	void service(int,int,bool,bool);
 	void drawQueue();
-	void buduj(int,int,bool,bool);
+	void buduj(int,int);
 	std::vector<std::thread> threads;//wektor watkow
 public:
 	Mur(Ekran*);
